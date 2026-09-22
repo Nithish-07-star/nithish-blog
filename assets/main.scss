@@ -115,3 +115,51 @@
 .site-header .site-nav {
   margin-left: auto;
 }
+[12:58 am, 23/09/2026] NITHISH: /* Custom header */
+
+.custom-header {
+  width: 100%;
+  border-bottom: 1px solid #e5e7eb;
+  background: white;
+}
+
+.custom-header-inner {
+  width: 100%;
+  min-height: 70px;
+  padding: 0 30px;
+  box-sizing: border-box;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.custom-title {
+  font-size: 1.35rem;
+  font-weight: 700;
+  text-decoration: none;
+}
+
+.custom-home {
+  font-size: 1rem;
+  font-weight: 600;
+  text-decoration: none;
+  padding: 9px 16px;
+  border-radius: 8px;
+}
+
+.custom-home:hover {
+  background: #f1f5f9;
+}
+
+
+<header class="site-header custom-header">
+  <div class="custom-header-inner">
+
+    <a class="custom-title" href="{{ '/' | relative_url }}">
+      {{ site.title | escape }}
+    </a>
+
+    <a class="custom-home" href="{{ '/' | relative_url }}">
+      Home
+    </a>
