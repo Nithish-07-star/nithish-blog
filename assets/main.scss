@@ -643,3 +643,16 @@ body.dark-mode .final-cta .button {
 body.dark-mode .final-cta .button:hover {
   background: #374151;
 }
+body.dark-mode .final-cta {
+  background: #1f2937;
+}
+
+body.dark-mode .final-cta .button {
+  background: #111827 !important;
+  color: #f9fafb !important;
+  border: 1px solid #4b5563;
+}
+
+body.dark-mode .final-cta .button:hover {
+  background: #374151 !important;
+}
