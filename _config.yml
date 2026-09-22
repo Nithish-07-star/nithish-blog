@@ -22,7 +22,7 @@ title: Jinnwooo's website 🐦‍🔥student
 email: nithishn2008.cpt@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
 baseurl: "/nithish-blog" 
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://nithish-07-star.github.io"
 twitter_username: jekyllrb
 github_username:  jekyll
 
