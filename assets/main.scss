@@ -479,3 +479,88 @@
   }
 
 }
+/* Theme toggle */
+
+.header-actions {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.theme-toggle {
+  border: 1px solid #d1d5db;
+  background: #ffffff;
+  color: #111827;
+  font-size: 1.1rem;
+  width: 42px;
+  height: 42px;
+  border-radius: 9px;
+  cursor: pointer;
+}
+
+.theme-toggle:hover {
+  background: #f3f4f6;
+}
+
+/* Manual dark mode */
+
+body.dark-mode {
+  background: #111827;
+  color: #f9fafb;
+}
+
+body.dark-mode .site-header,
+body.dark-mode .custom-header {
+  background: #111827;
+  border-bottom-color: #374151;
+}
+
+body.dark-mode .custom-title,
+body.dark-mode .custom-home {
+  color: #f9fafb;
+}
+
+body.dark-mode .custom-home:hover {
+  background: #1f2937;
+}
+
+body.dark-mode a {
+  color: #93c5fd;
+}
+
+body.dark-mode .button {
+  background: #f9fafb;
+  color: #111827 !important;
+}
+
+body.dark-mode .button.secondary {
+  background: #1f2937;
+  color: #f9fafb !important;
+  border-color: #4b5563;
+}
+
+body.dark-mode .interest-card,
+body.dark-mode .about-card,
+body.dark-mode .post-card {
+  background: #1f2937;
+  border-color: #374151;
+}
+
+body.dark-mode .learning-section {
+  background: #1f2937;
+}
+
+body.dark-mode .about-section blockquote {
+  background: #1f2937;
+  border-left-color: #9ca3af;
+}
+
+body.dark-mode .theme-toggle {
+  background: #1f2937;
+  color: #f9fafb;
+  border-color: #4b5563;
+}
+
+body.dark-mode .theme-toggle:hover {
+  background: #374151;
+}
