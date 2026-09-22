@@ -4,39 +4,97 @@ title: About Me
 permalink: /about/
 ---
 
-# Hi, I'm Jinnwooo 👋
+<div class="about-page">
 
-I'm a student interested in *building technology and exploring new advancements*.
+  <div class="about-hero">
+    <p class="section-label">ABOUT ME</p>
+    <h1>Hi, I'm Nithish 👋</h1>
 
-I enjoy learning about technology and keeping track of how it is evolving, especially in areas like *Artificial Intelligence (AI)* and new developments in computing.
+    <p class="about-intro">
+      I'm a student interested in building technology,
+      exploring new ideas, and understanding how computers
+      and intelligent systems work.
+    </p>
+  </div>
 
-## 🚀 What I'm Interested In
+  <section class="about-section">
+    <h2>🚀 What I'm Interested In</h2>
 
-I'm particularly interested in:
+    <div class="about-grid">
 
-- 🤖 Artificial Intelligence
-- 💻 Operating systems
-- 🧠 Natural-language interfaces
-- ⚙️ Automation
-- 🔬 Exploring new technologies
-- 🛠️ Building useful software
+      <div class="about-card">
+        <span>🤖</span>
+        <h3>Artificial Intelligence</h3>
+        <p>
+          Learning about AI, natural-language interfaces,
+          and how intelligent systems can make technology
+          easier to use.
+        </p>
+      </div>
 
-## 💡 A Future Idea
+      <div class="about-card">
+        <span>💻</span>
+        <h3>Computer Systems</h3>
+        <p>
+          Exploring operating systems, programming,
+          automation, and the foundations of computing.
+        </p>
+      </div>
 
-One of the ideas I want to work on is an *AI-powered operating system*.
+      <div class="about-card">
+        <span>🛠️</span>
+        <h3>Building Software</h3>
+        <p>
+          Turning ideas into practical projects while
+          learning new technologies and development tools.
+        </p>
+      </div>
 
-The idea is simple:
+    </div>
+  </section>
 
-> Instead of requiring users to know complicated commands, they could simply tell the computer what they want to do.
+  <section class="about-section">
 
-For example, a user could describe a task in normal language, and the system could understand the request, convert it into the appropriate terminal commands, and execute the required operations.
+    <h2>💡 A Future Idea</h2>
 
-The goal would be to make computers *easier, more efficient, and more accessible to use*, while still giving users the power of a traditional operating system.
+    <p>
+      One idea I want to explore is an
+      <strong>AI-powered operating system</strong>.
+    </p>
 
-This is something I want to explore and develop as I learn more about *AI, operating systems, programming, and computer systems*.
+    <p>
+      Instead of requiring users to remember complicated
+      commands, they could describe what they want to do
+      using normal language.
+    </p>
 
-## 🧭 My Learning Journey
+    <blockquote>
+      The goal is to make computers easier and more
+      accessible while keeping the power of a traditional
+      operating system.
+    </blockquote>
 
-This website is where I document what I'm learning, the things I'm building, and the ideas I'm exploring along the way.
+    <p>
+      This is something I want to explore as I learn more
+      about AI, operating systems, programming, and
+      computer systems.
+    </p>
 
-*Still learning. Still building. 🚀*
+  </section>
+
+  <section class="about-section learning-section">
+
+    <h2>🧭 My Learning Journey</h2>
+
+    <p>
+      This website is where I document what I'm learning,
+      the things I'm building, and the ideas I'm exploring.
+    </p>
+
+    <p class="learning-ending">
+      <strong>Still learning. Still building. 🚀</strong>
+    </p>
+
+  </section>
+
+</div>
