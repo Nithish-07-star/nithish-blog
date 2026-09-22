@@ -153,13 +153,4 @@
 }
 
 
-<header class="site-header custom-header">
-  <div class="custom-header-inner">
 
-    <a class="custom-title" href="{{ '/' | relative_url }}">
-      {{ site.title | escape }}
-    </a>
-
-    <a class="custom-home" href="{{ '/' | relative_url }}">
-      Home
-    </a>
