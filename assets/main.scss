@@ -479,6 +479,7 @@
   }
 
 }
+<<<<<<< HEAD
 /* Theme toggle */
 
 .header-actions {
@@ -564,3 +565,73 @@ body.dark-mode .theme-toggle {
 body.dark-mode .theme-toggle:hover {
   background: #374151;
 }
+=======
+
+/* Dark mode */
+
+@media (prefers-color-scheme: dark) {
+
+  body {
+    background: #111827;
+    color: #f9fafb;
+  }
+
+  .site-header,
+  .custom-header {
+    background: #111827;
+    border-bottom-color: #374151;
+  }
+
+  .custom-title,
+  .custom-home {
+    color: #f9fafb;
+  }
+
+  .custom-home:hover {
+    background: #1f2937;
+  }
+
+  a {
+    color: #93c5fd;
+  }
+
+  .button {
+    background: #f9fafb;
+    color: #111827 !important;
+  }
+
+  .button.secondary {
+    background: #1f2937;
+    color: #f9fafb !important;
+    border-color: #4b5563;
+  }
+
+  .button.secondary:hover {
+    background: #374151;
+  }
+
+  .interest-card,
+  .about-card,
+  .post-card {
+    background: #1f2937;
+    border-color: #374151;
+  }
+
+  .learning-section {
+    background: #1f2937;
+  }
+
+  .about-section blockquote {
+    background: #1f2937;
+    border-left-color: #9ca3af;
+  }
+
+  .intro,
+  .about-intro,
+  .about-card p,
+  .post-card p {
+    opacity: 0.85;
+  }
+
+}
+>>>>>>> b22a3ba28d0ec249b2295e6a8b0b9983db3d79b9
