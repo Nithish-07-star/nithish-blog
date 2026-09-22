@@ -102,3 +102,16 @@
 .site-nav .page-link:hover {
   background: #f1f5f9;
 }
+/* Make header span the full width */
+
+.site-header .wrapper {
+  max-width: none;
+  width: 100%;
+  box-sizing: border-box;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+.site-header .site-nav {
+  margin-left: auto;
+}
