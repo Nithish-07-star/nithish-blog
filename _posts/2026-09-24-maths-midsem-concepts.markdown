@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  " MATHS MIDSEM CONCEPTS"
-date:   2026-09-24 
+date:   2026-09-24 10:00:00 +0530
 categories: jekyll update
 ---
 ### MATHS MIDSEM CONCEPTS - INTRODUCTION TO MATH THINK ...
