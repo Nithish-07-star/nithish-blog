@@ -4,462 +4,467 @@ title:  " MATHS MIDSEM CONCEPTS"
 date:   2026-09-24 10:00:00 +0530
 categories: jekyll update
 ---
-### MATHS MIDSEM CONCEPTS - INTRODUCTION TO MATH THINK ...
+### MATHS MIDSEM CONCEPTS - INTRODUCTION TO MAth minor
+ 
+> **Course:** Introduction to Mathematical Thinking
 
-## courseflow
+---
 
-GEOMETRY
-↓
-RATIOS
-↓
-DIVISIBILITY
-↓
-COMMON DIVISORS
-↓
-GCD
-↓
-EUCLIDEAN ALGORITHM
-↓
-LINEAR COMBINATIONS
-↓
-BEZOUT IDENTITY
-↓
-SOLVABILITY OF ax + by = N
+## 🧭 Concept Roadmap
 
-==============================================================
-|| GENERAL CASES + FORMULAS + PROOFS + CONSTRUCTION METHODS ||
-==============================================================
-## BOO'S CONCEPTS
-# PART 1 — BOOs / BASIC CONSTRUCTIONS
+**Geometry**  
+↓  
+**Ratios**  
+↓  
+**Divisibility**  
+↓  
+**Common Divisors**  
+↓  
+**GCD**  
+↓  
+**Euclidean Algorithm**  
+↓  
+**Linear Combinations**  
+↓  
+**Bézout Identity**  
+↓  
+**Solvability of `ax + by = N`**
+
+---
+
+# Part 1 — BOOs / Basic Constructions
 
 The five BOOs used in the worksheets are:
 
-O1:
-Given two points P1 and P2, construct the crease/line joining P1 and P2.
+### O1 — Join Two Points
 
-O2:
+Given two points `P₁` and `P₂`, construct the crease/line joining `P₁` and `P₂`.
+
+### O2 — Intersection of Two Lines
+
 Given two creases/lines, construct their intersection.
 
-O3:
-Given two points P1 and P2, fold P1 onto P2.
+### O3 — Perpendicular Bisector
 
-The crease obtained is the perpendicular bisector of P1P2.
+Given two points `P₁` and `P₂`, fold `P₁` onto `P₂`.
 
-Therefore every point on the crease is equally distant from P1 and P2.
+The crease obtained is the **perpendicular bisector** of `P₁P₂`.
 
-O4:
+Therefore every point on the crease is equally distant from `P₁` and `P₂`.
+
+### O4 — Angle Bisector
+
 Given two creases/lines, fold one onto the other.
 
-The crease obtained is an angle bisector.
+The crease obtained is an **angle bisector**.
 
-O5:
-Given a point P and a crease/line L, construct a crease through P perpendicular to L.
+### O5 — Perpendicular Through a Point
 
-IMPORTANT BOO RESULTS:
+Given a point `P` and a crease/line `L`, construct a crease through `P` perpendicular to `L`.
 
-O3 -> perpendicular bisector
+### Important BOO Results
 
-O4 -> angle bisector
+| BOO | Result |
+|---|---|
+| **O3** | Perpendicular bisector |
+| **O4** | Angle bisector |
+| **O5** | Perpendicular through a given point |
 
-O5 -> perpendicular through a given point
+> **Parallel-line construction:**  
+> Two lines perpendicular to the same line are parallel.
+>
+> Therefore, to construct a parallel line:
+> 1. Construct a perpendicular to the given line.
+> 2. Construct another perpendicular to that perpendicular.
+> 3. The second line is parallel to the original line.
 
-Two lines perpendicular to the same line are parallel.
+---
 
-Therefore, to construct a parallel line:
-
-Construct a perpendicular to the given line.
-Construct another perpendicular to that perpendicular.
-The second line is parallel to the original line.
-=============================
- #PART 2 — SIMILAR TRIANGLES
+# Part 2 — Similar Triangles
 
 Similar triangles have the same shape but may have different sizes.
 
-Corresponding angles are equal.
+- Corresponding angles are equal.
+- Corresponding sides are proportional.
 
-Corresponding sides are proportional.
+If triangle `ABC` is similar to triangle `DEF`, then:
 
-If triangle ABC is similar to triangle DEF, then:
+`AB/DE = BC/EF = CA/FD`
 
-AB/DE = BC/EF = CA/FD
-
-GENERAL IDEA:
+### General Idea
 
 If:
 
-a/b = c/d
+`a/b = c/d`
 
 then:
 
-ad = bc.
+`ad = bc`
 
-MAIN USE IN THIS COURSE:
+### Main Use in This Course
 
 Similar triangles are used to construct ratios such as:
 
-1/n
+- `1/n`
+- `m/n`
+- other rational lengths.
 
-m/n
+---
 
-other rational lengths.
+# Part 3 — Constructing `1/2`
 
-============================================================
-PART 3 — CONSTRUCTING 1/2
+Given `AB = 1`.
 
-Given AB = 1.
+Use **O3** on `A` and `B`.
 
-Use O3 on A and B.
+O3 gives the perpendicular bisector of `AB`.
 
-O3 gives the perpendicular bisector of AB.
-
-Let it meet AB at M.
+Let it meet `AB` at `M`.
 
 Then:
 
-AM = MB.
+`AM = MB`
 
 Also:
 
-AM + MB = AB = 1.
+`AM + MB = AB = 1`
 
 Therefore:
 
-2AM = 1
+`2AM = 1`
 
-AM = 1/2.
+`AM = 1/2`
 
 Hence:
 
-AM = MB = 1/2.
+`AM = MB = 1/2`
 
-GENERAL IDEA:
+### General Idea
 
 To divide a segment into two equal parts, use its perpendicular bisector.
 
-============================================================
-PART 4 — GENERAL CONSTRUCTION OF 1/n
+---
 
-Suppose AB = 1.
+# Part 4 — General Construction of `1/n`
+
+Suppose `AB = 1`.
 
 We want to construct:
 
-1/n.
+`1/n`
 
-GENERAL CONSTRUCTION:
+### General Construction
 
-Start with AB = 1.
-Draw an auxiliary ray from A.
-Mark n equal consecutive lengths on this ray.
-Let the first point be C1.
-Let the nth point be Cn.
-Join Cn to B.
-Through C1 construct a line parallel to CnB.
-Let this parallel meet AB at P.
+1. Start with `AB = 1`.
+2. Draw an auxiliary ray from `A`.
+3. Mark `n` equal consecutive lengths on this ray.
+4. Let the first point be `C₁`.
+5. Let the nth point be `Cₙ`.
+6. Join `Cₙ` to `B`.
+7. Through `C₁` construct a line parallel to `CₙB`.
+8. Let this parallel meet `AB` at `P`.
 
 By similar triangles:
 
-AP/AB = AC1/ACn.
+`AP/AB = AC₁/ACₙ`
 
 Since:
 
-AC1 = 1 unit
+`AC₁ = 1 unit`
 
 and:
 
-ACn = n units,
+`ACₙ = n units`
 
 we get:
 
-AP/AB = 1/n.
+`AP/AB = 1/n`
 
 Since:
 
-AB = 1,
+`AB = 1`
 
-AP = 1/n.
+`AP = 1/n`
 
 Therefore:
 
-AP = 1/n.
+`AP = 1/n`
 
-IMPORTANT:
+> **IMPORTANT:**  
+> The construction works because of proportionality from similar triangles.
+>
+> Whenever the question asks for `1/n`, think:
+>
+> **EQUAL AUXILIARY STEPS + PARALLEL LINE + SIMILAR TRIANGLES**
 
-The construction works because of proportionality from similar triangles.
+---
 
-Whenever the question asks for 1/n, think:
-
-EQUAL AUXILIARY STEPS + PARALLEL LINE + SIMILAR TRIANGLES.
-
-============================================================
-PART 5 — GENERAL CONSTRUCTION OF m/n
+# Part 5 — General Construction of `m/n`
 
 First construct:
 
-1/n.
+`1/n`
 
-Then copy that length m times.
+Then copy that length `m` times.
 
 Therefore:
 
-m/n = m(1/n).
+`m/n = m(1/n)`
 
 Hence:
 
-m/n can be constructed by repeating the constructed length 1/n exactly m times.
+`m/n` can be constructed by repeating the constructed length `1/n` exactly `m` times.
 
-GENERAL FORM:
+### General Form
 
-1/n -> construct unit fraction
+`1/n → construct unit fraction`
 
-m/n -> repeat 1/n m times.
+`m/n → repeat 1/n m times`
 
-============================================================
-PART 6 — PYTHAGORAS
+---
 
-For a right triangle with perpendicular sides a and b and hypotenuse c:
+# Part 6 — Pythagoras
 
-c^2 = a^2 + b^2.
+For a right triangle with perpendicular sides `a` and `b` and hypotenuse `c`:
+
+`c² = a² + b²`
 
 Therefore:
 
-c = sqrt(a^2 + b^2).
+`c = √(a² + b²)`
 
-MAIN USE:
+### Main Use
 
 Constructing square roots.
 
-============================================================
-PART 7 — CONSTRUCTING sqrt(2)
+---
+
+# Part 7 — Constructing `√2`
 
 Start with a unit segment:
 
-AB = 1.
+`AB = 1`
 
 Construct:
 
-BC = 1
+`BC = 1`
 
 such that:
 
-AB perpendicular BC.
+`AB ⟂ BC`
 
-Then triangle ABC is right angled.
+Then triangle `ABC` is right angled.
 
 By Pythagoras:
 
-AC^2 = AB^2 + BC^2
+`AC² = AB² + BC²`
 
-AC^2 = 1^2 + 1^2
+`AC² = 1² + 1²`
 
-AC^2 = 2.
+`AC² = 2`
 
 Therefore:
 
-AC = sqrt(2).
+`AC = √2`
 
 So:
 
-sqrt(2) = diagonal of a unit square.
+> **`√2` = diagonal of a unit square.**
 
-============================================================
-PART 8 — GENERAL CONSTRUCTION OF sqrt(n+1)
+---
+
+# Part 8 — General Construction of `√(n+1)`
 
 Suppose we already have:
 
-AB = sqrt(n).
+`AB = √n`
 
 Construct:
 
-BC = 1
+`BC = 1`
 
 such that:
 
-AB perpendicular BC.
+`AB ⟂ BC`
 
 Then:
 
-AC^2 = AB^2 + BC^2
+`AC² = AB² + BC²`
 
-AC^2 = (sqrt(n))^2 + 1^2
+`AC² = (√n)² + 1²`
 
-AC^2 = n + 1.
+`AC² = n + 1`
 
 Therefore:
 
-AC = sqrt(n+1).
+`AC = √(n+1)`
 
-GENERAL FORMULA:
+### General Formula
 
-If sqrt(n) is already available, then:
+If `√n` is already available, then:
 
-sqrt(n+1) = sqrt((sqrt(n))^2 + 1^2).
+`√(n+1) = √((√n)² + 1²)`
 
 So one square root can be used to construct the next one.
 
-============================================================
-PART 9 — CONSTRUCTING sqrt(3)/2
+---
 
-Take an equilateral triangle of side 1.
+# Part 9 — Constructing `√3/2`
 
-Let its altitude be h.
+Take an equilateral triangle of side `1`.
+
+Let its altitude be `h`.
 
 The altitude bisects the base.
 
 Therefore:
 
-half base = 1/2.
+`half base = 1/2`
 
 Using Pythagoras:
 
-h^2 + (1/2)^2 = 1^2.
+`h² + (1/2)² = 1²`
 
 Therefore:
 
-h^2 + 1/4 = 1.
+`h² + 1/4 = 1`
 
-h^2 = 3/4.
+`h² = 3/4`
 
 Therefore:
 
-h = sqrt(3/4)
+`h = √(3/4)`
 
-h = sqrt(3)/2.
+`h = √3/2`
 
 Hence:
 
-sqrt(3)/2 = altitude of an equilateral triangle of side 1.
+> **`√3/2` = altitude of an equilateral triangle of side 1.**
 
-============================================================
-PART 10 — GENERAL SQUARE ROOT STRATEGY
+---
 
-Whenever you are asked to construct sqrt(K), try to express K in the form:
+# Part 10 — General Square Root Strategy
 
-K = a^2 + b^2
+Whenever you are asked to construct `√K`, try to express `K` in the form:
+
+`K = a² + b²`
 
 or:
 
-K = a^2 - b^2.
+`K = a² - b²`
 
 Then use a right triangle.
 
-For:
+### For `K = a² + b²`
 
-K = a^2 + b^2:
+Construct perpendicular sides `a` and `b`.
 
-construct perpendicular sides a and b.
+The hypotenuse is:
 
-The hypotenuse is sqrt(K).
+`√K`
 
-For:
+### For `K = a² - b²`
 
-K = a^2 - b^2:
-
-construct a right triangle with hypotenuse a and one side b.
+Construct a right triangle with hypotenuse `a` and one side `b`.
 
 The other side is:
 
-sqrt(a^2 - b^2).
+`√(a² - b²)`
 
-============================================================
-PART 11 — ANGLES
+---
 
-BASIC CONSTRUCTIONS:
+# Part 11 — Angles
 
-90 degrees:
+### Basic Constructions
 
-Use O5 to construct a perpendicular.
+| Angle | Construction |
+|---|---|
+| **90°** | Use O5 to construct a perpendicular |
+| **45°** | Start with 90° and use O4 to bisect it |
+| **60°** | Construct an equilateral triangle |
+| **30°** | Bisect 60° using O4 |
 
-45 degrees:
-
-Start with 90 degrees and use O4 to bisect it.
-
-45 = 90/2.
-
-60 degrees:
-
-Construct an equilateral triangle.
+`45 = 90/2`
 
 Every angle of an equilateral triangle is:
 
-60 degrees.
+`60°`
 
-30 degrees:
+`30 = 60/2`
 
-Bisect 60 degrees using O4.
+### Summary
 
-30 = 60/2.
+**90° → O5**
 
-SUMMARY:
+**45° → bisect 90° using O4**
 
-90 -> O5
+**60° → equilateral triangle**
 
-45 -> bisect 90 using O4
+**30° → bisect 60° using O4**
 
-60 -> equilateral triangle
+---
 
-30 -> bisect 60 using O4
-
-============================================================
-PART 12 — GENERAL ANGLE PROBLEM
+# Part 12 — General Angle Problem
 
 Suppose you are given two angles:
 
-x degrees and y degrees.
+`x°` and `y°`
 
 By adding and subtracting angles, we can form integer combinations:
 
-mx + ny
+`mx + ny`
 
 where:
 
-m,n are integers.
+`m,n` are integers.
 
-If x > y, replace:
+If `x > y`, replace:
 
-x by x - y.
+`x` by `x - y`
 
 This does not change the greatest common divisor.
 
-gcd(x,y) = gcd(x-y,y).
+`gcd(x,y) = gcd(x-y,y)`
 
 Continue.
 
-If y > x:
+If `y > x`:
 
-gcd(x,y) = gcd(x,y-x).
+`gcd(x,y) = gcd(x,y-x)`
 
-Eventually both become equal to d.
+Eventually both become equal to `d`.
 
 Then:
 
-d = gcd(x,y).
+`d = gcd(x,y)`
 
 Therefore:
 
-THE SMALLEST POSITIVE INTEGER ANGLE OBTAINABLE FROM x AND y BY INTEGER ADDITION/SUBTRACTION IS gcd(x,y).
+> **THE SMALLEST POSITIVE INTEGER ANGLE OBTAINABLE FROM `x` AND `y` BY INTEGER ADDITION/SUBTRACTION IS `gcd(x,y)`.**
 
 This is exactly the same mathematical structure as the subtraction Euclidean algorithm.
 
-============================================================
-PART 13 — RECTANGLE / SQUARE METHOD
+---
+
+## Part 13 — Rectangle / Square Method
 
 Suppose a rectangle has side lengths:
 
-a and b
+`a` and `b`
 
 with:
 
-a > b.
+`a > b`
 
-Cut/fold squares of side b.
+Cut/fold squares of side `b`.
 
 The remaining rectangle has dimensions:
 
-a-b and b.
+`a-b` and `b`
 
 Therefore:
 
-(a,b) -> (a-b,b).
+`(a,b) → (a-b,b)`
 
 Continue.
 
@@ -469,499 +474,497 @@ Eventually a square remains.
 
 The side length of the final square is:
 
-gcd(a,b).
+> **`gcd(a,b)`**
 
-WHY?
+### Why?
 
 Because:
 
-gcd(a,b) = gcd(a-b,b).
+`gcd(a,b) = gcd(a-b,b)`
 
 This follows from preservation of common divisors.
 
-============================================================
-PART 14 — SUBTRACTION PROPERTY OF DIVISIBILITY
+---
+
+# Part 14 — Subtraction Property of Divisibility
 
 Suppose:
 
-c divides a
+`c | a`
 
 and:
 
-c divides b.
+`c | b`
 
 Then:
 
-a = cm
+`a = cm`
 
 and:
 
-b = cn
+`b = cn`
 
-for some integers m,n.
+for some integers `m,n`.
 
 Subtract:
 
-a-b = cm-cn
+`a-b = cm-cn`
 
-a-b = c(m-n).
+`a-b = c(m-n)`
 
 Therefore:
 
-c divides (a-b).
+`c | (a-b)`
 
 Hence:
 
-c | a and c | b
-implies
-c | (a-b).
+> `c | a` and `c | b` implies `c | (a-b)`.
 
-REVERSE DIRECTION:
+### Reverse Direction
 
 Suppose:
 
-c divides (a-b)
+`c | (a-b)`
 
 and:
 
-c divides b.
+`c | b`
 
 Since:
 
-a = (a-b) + b,
+`a = (a-b) + b`
 
 we get:
 
-c divides a.
+`c | a`
 
 Therefore:
 
-c | (a-b) and c | b
-implies
-c | a.
+`c | (a-b)` and `c | b` implies `c | a`.
 
-IMPORTANT CONCLUSION:
+### Important Conclusion
 
-c | a and c | b
+The common divisors do not change:
 
-if and only if:
+`c | a` and `c | b`
 
-c | (a-b) and c | b.
+**if and only if**
+
+`c | (a-b)` and `c | b`.
 
 Therefore the set of common divisors does not change.
 
-============================================================
-PART 15 — GCD SUBTRACTION PROPERTY
+---
 
-If a > b:
+# Part 15 — GCD Subtraction Property
 
-gcd(a,b) = gcd(a-b,b).
+If:
+
+`a > b`
+
+then:
+
+`gcd(a,b) = gcd(a-b,b)`
 
 More generally:
 
-gcd(a,b) = gcd(a-qb,b)
+`gcd(a,b) = gcd(a-qb,b)`
 
-for any integer q for which the reduction is useful.
+for any integer `q` for which the reduction is useful.
 
 Why?
 
 Because:
 
-a-qb
+`a-qb`
 
-is an integer linear combination of a and b.
+is an integer linear combination of `a` and `b`.
 
 The common divisors remain exactly the same.
 
-============================================================
-PART 16 — DIVISION ALGORITHM
+---
 
-For positive integers a and b, there exist unique integers q and r such that:
+# Part 16 — Division Algorithm
 
-a = bq + r
+For positive integers `a` and `b`, there exist unique integers `q` and `r` such that:
+
+`a = bq + r`
 
 where:
 
-0 <= r < b.
+`0 ≤ r < b`
 
-q is the quotient.
+`q` is the quotient.
 
-r is the remainder.
+`r` is the remainder.
 
-IMPORTANT:
+> **IMPORTANT:**  
+> The condition `0 ≤ r < b` is essential.
 
-The condition:
+---
 
-0 <= r < b
-
-is essential.
-
-============================================================
-PART 17 — WHY QUOTIENT AND REMAINDER ARE UNIQUE
+# Part 17 — Why Quotient and Remainder Are Unique
 
 Suppose:
 
-a = bq1 + r1
+`a = bq₁ + r₁`
 
 and:
 
-a = bq2 + r2.
+`a = bq₂ + r₂`
 
 Equate them:
 
-bq1 + r1 = bq2 + r2.
+`bq₁ + r₁ = bq₂ + r₂`
 
 Therefore:
 
-b(q1-q2) = r2-r1.
+`b(q₁-q₂) = r₂-r₁`
 
 Because:
 
-0 <= r1 < b
+`0 ≤ r₁ < b`
 
 and:
 
-0 <= r2 < b,
+`0 ≤ r₂ < b`
 
 we have:
 
--b < r2-r1 < b.
+`-b < r₂-r₁ < b`
 
 But:
 
-b(q1-q2)
+`b(q₁-q₂)`
 
-is a multiple of b.
+is a multiple of `b`.
 
-The only multiple of b strictly between -b and b is 0.
+The only multiple of `b` strictly between `-b` and `b` is `0`.
 
 Therefore:
 
-r2-r1 = 0.
+`r₂-r₁ = 0`
 
 So:
 
-r1 = r2.
+`r₁ = r₂`
 
 Then:
 
-q1 = q2.
+`q₁ = q₂`
 
 Therefore quotient and remainder are unique.
 
-============================================================
-PART 18 — DIVISIBILITY
+---
 
-Definition:
+# Part 18 — Divisibility
 
-a divides b, written:
+### Definition
 
-a | b
+`a | b`
 
 if and only if:
 
-b = ak
+`b = ak`
 
-for some integer k.
+for some integer `k`.
 
-For natural numbers, k is usually taken to be a natural number according to the convention being used.
+For natural numbers, `k` is usually taken to be a natural number according to the convention being used.
 
-IMPORTANT:
+> **IMPORTANT:**  
+> `a | b` does NOT mean `a/b` is necessarily a natural number written as a decimal.
+>
+> It means there exists an integer multiplier `k` such that:
+>
+> `b = ak`.
 
-a | b does NOT mean:
+---
 
-a/b is necessarily a natural number written as a decimal.
+# Part 19 — Basic Divisibility Properties
 
-It means there exists an integer multiplier k such that:
+## Property 1 — Reflexivity
 
-b = ak.
-
-============================================================
-PART 19 — BASIC DIVISIBILITY PROPERTIES
-
-PROPERTY 1: REFLEXIVITY
-
-a | a
+`a | a`
 
 because:
 
-a = a(1).
+`a = a(1)`
 
-PROPERTY 2: TRANSITIVITY
+## Property 2 — Transitivity
 
 If:
 
-a | b
+`a | b`
 
 and:
 
-b | c,
+`b | c`
 
 then:
 
-a | c.
+`a | c`
 
 Proof:
 
-b = am
+`b = am`
 
-c = bn.
+`c = bn`
 
 Therefore:
 
-c = amn.
+`c = amn`
 
 Hence:
 
-a | c.
+`a | c`
 
-PROPERTY 3: ADDITION
+## Property 3 — Addition
 
 If:
 
-c | a
+`c | a`
 
 and:
 
-c | b,
+`c | b`
 
 then:
 
-c | (a+b).
+`c | (a+b)`
 
 Proof:
 
-a = cm
+`a = cm`
 
-b = cn.
+`b = cn`
 
 Therefore:
 
-a+b = c(m+n).
+`a+b = c(m+n)`
 
-PROPERTY 4: SUBTRACTION
-
-If:
-
-c | a
-
-and:
-
-c | b,
-
-then:
-
-c | (a-b).
-
-Proof:
-
-a-b = c(m-n).
-
-PROPERTY 5: INTEGER LINEAR COMBINATION
+## Property 4 — Subtraction
 
 If:
 
-c | a
+`c | a`
 
 and:
 
-c | b,
+`c | b`
 
 then:
 
-c | (ma+nb)
-
-for any integers m,n.
+`c | (a-b)`
 
 Proof:
 
-a = cu
+`a-b = c(m-n)`
 
-b = cv.
+## Property 5 — Integer Linear Combination
+
+If:
+
+`c | a`
+
+and:
+
+`c | b`
+
+then:
+
+`c | (ma+nb)`
+
+for any integers `m,n`.
+
+Proof:
+
+`a = cu`
+
+`b = cv`
 
 Then:
 
-ma+nb = mcu + ncv
+`ma+nb`
 
-= c(mu+nv).
+`= mcu + ncv`
+
+`= c(mu+nv)`
 
 Therefore:
 
-c | (ma+nb).
+`c | (ma+nb)`
 
-THIS IS THE MASTER DIVISIBILITY PROPERTY.
+> **THIS IS THE MASTER DIVISIBILITY PROPERTY.**
 
-============================================================
-PART 20 — COMMON DIVISORS
+---
 
-A common divisor of a and b is a number c such that:
+# Part 20 — Common Divisors
 
-c | a
+A common divisor of `a` and `b` is a number `c` such that:
+
+`c | a`
 
 and:
 
-c | b.
+`c | b`
 
 The set of all common divisors can be thought of as:
 
-CD(a,b).
+`CD(a,b)`
 
 The GCD is the greatest positive common divisor.
 
-============================================================
-PART 21 — DEFINITION OF GCD
+---
 
-d = gcd(a,b)
+# Part 21 — Definition of GCD
 
-means:
+`d = gcd(a,b)` means:
 
-d divides a.
-d divides b.
-Every common divisor of a and b divides d.
+- `d | a`
+- `d | b`
+- Every common divisor of `a` and `b` divides `d`.
 
 Formally:
 
-d | a
+`d | a`
 
-d | b
+`d | b`
 
 and if:
 
-c | a and c | b,
+`c | a` and `c | b`
 
 then:
 
-c | d.
+`c | d`
 
 This definition is stronger and more useful in proofs than simply saying:
 
-"GCD is the largest common divisor."
+> “GCD is the largest common divisor.”
 
-============================================================
-PART 22 — GCD AND EUCLIDEAN ALGORITHM
+---
+
+# Part 22 — GCD and Euclidean Algorithm
 
 Suppose:
 
-a = bq + r.
+`a = bq + r`
 
 Then:
 
-r = a - bq.
+`r = a - bq`
 
 Therefore:
 
-gcd(a,b) = gcd(b,r).
+`gcd(a,b) = gcd(b,r)`
 
 So:
 
-gcd(a,b) = gcd(b,a mod b).
+`gcd(a,b) = gcd(b,a mod b)`
 
 Repeat.
 
 Eventually:
 
-r = 0.
+`r = 0`
 
 The last non-zero remainder is the GCD.
 
-GENERAL ALGORITHM:
+### General Algorithm
 
-Input: a,b.
+**Input:** `a,b`
 
-Step 1:
-Assume a >= b.
+**Step 1:** Assume `a ≥ b`.
 
-Step 2:
-Divide:
+**Step 2:** Divide:
 
-a = bq + r.
+`a = bq + r`
 
-Step 3:
-If r = 0, return b.
+**Step 3:** If `r = 0`, return `b`.
 
-Step 4:
-Otherwise replace:
+**Step 4:** Otherwise replace:
 
-a <- b
+`a ← b`
 
-b <- r.
+`b ← r`
 
-Step 5:
-Repeat.
+**Step 5:** Repeat.
 
-FINAL ANSWER:
+### Final Answer
 
-Last non-zero remainder = gcd(a,b).
+> **Last non-zero remainder = `gcd(a,b)`**
 
-============================================================
-PART 23 — WHY EUCLIDEAN ALGORITHM WORKS
+---
+
+# Part 23 — Why Euclidean Algorithm Works
 
 Start with:
 
-a = bq+r.
+`a = bq+r`
 
-Take any common divisor c of a and b.
+Take any common divisor `c` of `a` and `b`.
 
 Then:
 
-c | a
+`c | a`
 
 and:
 
-c | b.
+`c | b`
 
 Therefore:
 
-c | (a-qb).
+`c | (a-qb)`
 
 But:
 
-a-qb = r.
+`a-qb = r`
 
 Therefore:
 
-c | r.
+`c | r`
 
-So every common divisor of a,b is also a common divisor of b,r.
+So every common divisor of `a,b` is also a common divisor of `b,r`.
 
 Conversely, if:
 
-c | b
+`c | b`
 
 and:
 
-c | r,
+`c | r`
 
 then:
 
-a = bq+r
+`a = bq+r`
 
 so:
 
-c | a.
+`c | a`
 
 Therefore the common divisor sets are identical.
 
 Hence:
 
-gcd(a,b) = gcd(b,r).
+`gcd(a,b) = gcd(b,r)`
 
-============================================================
-PART 24 — WHY EUCLIDEAN ALGORITHM TERMINATES
+---
+
+# Part 24 — Why Euclidean Algorithm Terminates
 
 At each division step:
 
-a = bq+r
+`a = bq+r`
 
 with:
 
-0 <= r < b.
+`0 ≤ r < b`
 
 Therefore the next remainder is smaller than the previous divisor.
 
 So we get:
 
-b > r1 > r2 > r3 > ...
+`b > r₁ > r₂ > r₃ > …`
 
 All are non-negative integers.
 
@@ -969,512 +972,509 @@ A strictly decreasing sequence of positive integers cannot continue forever.
 
 Therefore the algorithm terminates.
 
-============================================================
-PART 25 — EA1: SUBTRACTION VERSION
+---
 
-Input:
+# Part 25 — EA1: Subtraction Version
 
-a,b.
-
-If:
-
-a = b,
-
-return a.
+**Input:** `a,b`
 
 If:
 
-a > b,
+`a = b`
+
+return `a`.
+
+If:
+
+`a > b`
 
 replace:
 
-(a,b) -> (a-b,b).
+`(a,b) → (a-b,b)`
 
 If:
 
-b > a,
+`b > a`
 
 replace:
 
-(a,b) -> (a,b-a).
+`(a,b) → (a,b-a)`
 
 Repeat.
 
-Why does this work?
+### Why does this work?
 
 Because:
 
-gcd(a,b) = gcd(a-b,b)
+`gcd(a,b) = gcd(a-b,b)`
 
 and:
 
-gcd(a,b) = gcd(a,b-a).
+`gcd(a,b) = gcd(a,b-a)`
 
-Why does it terminate?
+### Why does it terminate?
 
-Because a+b decreases at every subtraction.
+Because `a+b` decreases at every subtraction.
 
-Since a+b is a positive integer, it cannot decrease forever.
+Since `a+b` is a positive integer, it cannot decrease forever.
 
 Therefore EA1 terminates.
 
-============================================================
-PART 26 — EA2: DIVISION VERSION
+---
 
-Input:
+# Part 26 — EA2: Division Version
 
-a,b.
+**Input:** `a,b`
 
 Divide:
 
-a = bq+r.
+`a = bq+r`
 
 If:
 
-r=0,
+`r=0`
 
 then:
 
-gcd(a,b)=b.
+`gcd(a,b)=b`
 
 Otherwise:
 
-(a,b) -> (b,r).
+`(a,b) → (b,r)`
 
 Repeat.
 
 This is faster than repeated subtraction because one division can replace many subtractions.
 
-============================================================
-PART 27 — GCD PROPERTIES
+---
 
-gcd(a,b) = gcd(b,a).
+# Part 27 — GCD Properties
 
-gcd(a,b) = gcd(|a|,|b|).
+`gcd(a,b) = gcd(b,a)`
 
-gcd(a,b) = gcd(a-b,b), when a>b.
+`gcd(a,b) = gcd(|a|,|b|)`
 
-gcd(a,b) = gcd(a-qb,b).
+`gcd(a,b) = gcd(a-b,b)`, when `a>b`
 
-gcd(a,b) = gcd(b,a mod b).
+`gcd(a,b) = gcd(a-qb,b)`
 
-gcd(ka,kb) = |k| gcd(a,b).
+`gcd(a,b) = gcd(b,a mod b)`
+
+`gcd(ka,kb) = |k|gcd(a,b)`
 
 If:
 
-gcd(a,b)=1,
+`gcd(a,b)=1`
 
-then a and b are coprime.
+then `a` and `b` are coprime.
 
-============================================================
-PART 28 — COPRIME NUMBERS
+---
 
-Two integers a and b are coprime if:
+# Part 28 — Coprime Numbers
 
-gcd(a,b)=1.
+Two integers `a` and `b` are coprime if:
+
+`gcd(a,b)=1`
 
 Equivalent statement:
 
-There exist integers x,y such that:
+There exist integers `x,y` such that:
 
-ax+by=1.
+`ax+by=1`
 
 Therefore:
 
-gcd(a,b)=1
+`gcd(a,b)=1`
 
 if and only if:
 
-1 can be expressed as an integer linear combination of a and b.
+`1` can be expressed as an integer linear combination of `a` and `b`.
 
-============================================================
-PART 29 — LINEAR COMBINATION
+---
 
-A linear combination of a and b is:
+# Part 29 — Linear Combination
 
-ax+by
+A linear combination of `a` and `b` is:
+
+`ax+by`
 
 where:
 
-x,y are integers.
+`x,y` are integers.
 
 Define:
 
-L(a,b) = {ax+by : x,y are integers}.
+`L(a,b) = {ax+by : x,y are integers}`
 
-This is the set of all integer linear combinations of a and b.
+This is the set of all integer linear combinations of `a` and `b`.
 
-============================================================
-PART 30 — COMMON DIVISOR AND LINEAR COMBINATION
+---
+
+# Part 30 — Common Divisor and Linear Combination
 
 Suppose:
 
-c | a
+`c | a`
 
 and:
 
-c | b.
+`c | b`
 
 Then:
 
-c | (ax+by)
+`c | (ax+by)`
 
 for every:
 
-x,y in Z.
+`x,y ∈ Z`
 
 Proof:
 
-a=cm
+`a=cm`
 
-b=cn.
+`b=cn`
 
 Then:
 
-ax+by
+`ax+by`
 
-= cmx + cny
+`= cmx + cny`
 
-= c(mx+ny).
-
-Therefore:
-
-c | (ax+by).
-
-IMPORTANT:
-
-Every common divisor of a and b divides every integer linear combination of a and b.
-
-============================================================
-PART 31 — BEZOUT IDENTITY
-
-BEZOUT'S IDENTITY:
-
-For integers a,b not both zero, there exist integers x,y such that:
-
-ax+by = gcd(a,b).
+`= c(mx+ny)`
 
 Therefore:
 
-gcd(a,b)
+`c | (ax+by)`
 
-is an integer linear combination of a and b.
+> **IMPORTANT:**  
+> Every common divisor of `a` and `b` divides every integer linear combination of `a` and `b`.
 
-============================================================
-PART 32 — FINDING BEZOUT COEFFICIENTS
+---
 
-GENERAL METHOD:
+# Part 31 — Bézout Identity
 
-Run Euclidean algorithm.
-Find the last non-zero remainder d.
-d is the GCD.
-Start from the equation producing d.
-Substitute the previous remainder.
-Continue backwards.
-Eventually express d using only a and b.
+### Bézout's Identity
+
+For integers `a,b` not both zero, there exist integers `x,y` such that:
+
+`ax+by = gcd(a,b)`
+
+Therefore:
+
+> **`gcd(a,b)` is an integer linear combination of `a` and `b`.**
+
+---
+
+# Part 32 — Finding Bézout Coefficients
+
+### General Method
+
+1. Run Euclidean algorithm.
+2. Find the last non-zero remainder `d`.
+3. `d` is the GCD.
+4. Start from the equation producing `d`.
+5. Substitute the previous remainder.
+6. Continue backwards.
+7. Eventually express `d` using only `a` and `b`.
 
 Final form:
 
-d=ax+by.
+`d=ax+by`
 
-The x and y obtained are Bézout coefficients.
+The `x` and `y` obtained are Bézout coefficients.
 
-============================================================
-PART 33 — MASTER LINEAR COMBINATION THEOREM
+---
+
+# Part 33 — Master Linear Combination Theorem
 
 The equation:
 
-ax+by=N
+`ax+by=N`
 
 has integer solutions if and only if:
 
-gcd(a,b) divides N.
+`gcd(a,b) | N`
 
 Symbolically:
 
-ax+by=N
+> `ax+by=N` has integer solutions **IF AND ONLY IF** `gcd(a,b) | N`.
 
-has integer solutions
-
-IF AND ONLY IF
-
-gcd(a,b) | N.
-
-PROOF — FORWARD DIRECTION:
+### Proof — Forward Direction
 
 Suppose:
 
-N=ax+by.
+`N=ax+by`
 
 Let:
 
-d=gcd(a,b).
+`d=gcd(a,b)`
 
 Then:
 
-d|a
+`d | a`
 
 and:
 
-d|b.
+`d | b`
 
 Therefore:
 
-d | (ax+by).
+`d | (ax+by)`
 
 Hence:
 
-d|N.
+`d | N`
 
-PROOF — REVERSE DIRECTION:
+### Proof — Reverse Direction
 
 Suppose:
 
-d|N.
+`d | N`
 
 Then:
 
-N=kd
+`N=kd`
 
-for some integer k.
+for some integer `k`.
 
-By Bezout:
+By Bézout:
 
-d=ax0+by0.
+`d=ax₀+by₀`
 
 Therefore:
 
-N=k(ax0+by0).
+`N=k(ax₀+by₀)`
 
 So:
 
-N=a(kx0)+b(ky0).
+`N=a(kx₀)+b(ky₀)`
 
 Therefore integer solutions exist.
 
-============================================================
-PART 34 — THE SET L(a,b) AND GCD
+---
+
+# Part 34 — The Set `L(a,b)` and GCD
 
 Consider:
 
-L(a,b) = {ax+by : x,y in Z}.
+`L(a,b) = {ax+by : x,y ∈ Z}`
 
-There are positive elements in this set when a,b are not both zero.
+There are positive elements in this set when `a,b` are not both zero.
 
 By the well-ordering principle, there is a smallest positive element.
 
-Call it d.
+Call it `d`.
 
 So:
 
-d=ax+by.
+`d=ax+by`
 
-SHOW d DIVIDES a:
+### Show `d` divides `a`
 
 Use division algorithm:
 
-a=qd+r
+`a=qd+r`
 
 where:
 
-0 <= r < d.
+`0 ≤ r < d`
 
 Then:
 
-r=a-qd.
+`r=a-qd`
 
-Since a is in L(a,b) and d is in L(a,b), r is also in L(a,b).
+Since `a` is in `L(a,b)` and `d` is in `L(a,b)`, `r` is also in `L(a,b)`.
 
-But d is the smallest positive element.
+But `d` is the smallest positive element.
 
-Therefore r cannot be positive.
+Therefore `r` cannot be positive.
 
 So:
 
-r=0.
+`r=0`
 
 Hence:
 
-d|a.
+`d | a`
 
 Similarly:
 
-d|b.
+`d | b`
 
-NOW TAKE ANY COMMON DIVISOR c:
+### Now Take Any Common Divisor `c`
 
 Suppose:
 
-c|a
+`c | a`
 
 and:
 
-c|b.
+`c | b`
 
 Since:
 
-d=ax+by,
+`d=ax+by`
 
 we know:
 
-c|d.
+`c | d`
 
-Therefore every common divisor divides d.
+Therefore every common divisor divides `d`.
 
 Thus:
 
-d=gcd(a,b).
+`d=gcd(a,b)`
 
-FINAL RESULT:
+### Final Result
 
-The smallest positive element of L(a,b) is:
+> **The smallest positive element of `L(a,b)` is `gcd(a,b)`.**
 
-gcd(a,b).
+---
 
-============================================================
-PART 35 — THE COMPLETE CONNECTION
+# Part 35 — The Complete Connection
 
-START:
+### START
 
-a,b.
+`a,b`
 
-DIVISIBILITY:
+### DIVISIBILITY
 
-If c divides a and b, then c divides every:
+If `c | a` and `c | b`, then `c` divides every:
 
-ma+nb.
+`ma+nb`
 
 Therefore integer linear combinations preserve common divisors.
 
-EUCLIDEAN STEP:
+### EUCLIDEAN STEP
 
-a=bq+r.
+`a=bq+r`
 
 Therefore:
 
-r=a-qb.
+`r=a-qb`
 
-Since r is a linear combination of a and b, the common divisors remain unchanged.
+Since `r` is a linear combination of `a` and `b`, the common divisors remain unchanged.
 
 Hence:
 
-gcd(a,b)=gcd(b,r).
+`gcd(a,b)=gcd(b,r)`
 
-REPEAT:
+### REPEAT
 
 Euclidean algorithm.
 
 Eventually:
 
-last non-zero remainder = gcd(a,b).
+`last non-zero remainder = gcd(a,b)`
 
-BACK-SUBSTITUTION:
+### BACK-SUBSTITUTION
 
 Since every remainder is a linear combination of earlier numbers:
 
-gcd(a,b)=ax+by.
+`gcd(a,b)=ax+by`
 
-BEZOUT:
+### BÉZOUT
 
 Therefore the GCD is an integer linear combination.
 
-SOLVABILITY:
+### SOLVABILITY
 
-ax+by=N
+`ax+by=N`
 
 is solvable exactly when:
 
-gcd(a,b)|N.
+`gcd(a,b) | N`
 
-THE COMPLETE CHAIN:
+> ## The Complete Chain
+>
+> **DIVISIBILITY**  
+> ↓  
+> **INTEGER LINEAR COMBINATIONS**  
+> ↓  
+> **SUBTRACTION PROPERTY**  
+> ↓  
+> **DIVISION PROPERTY**  
+> ↓  
+> **EUCLIDEAN ALGORITHM**  
+> ↓  
+> **GCD**  
+> ↓  
+> **BACK-SUBSTITUTION**  
+> ↓  
+> **BÉZOUT IDENTITY**  
+> ↓  
+> **`ax+by=N`**  
+> ↓  
+> **`gcd(a,b) | N`**
 
-DIVISIBILITY
-↓
-INTEGER LINEAR COMBINATIONS
-↓
-SUBTRACTION PROPERTY
-↓
-DIVISION PROPERTY
-↓
-EUCLIDEAN ALGORITHM
-↓
-GCD
-↓
-BACK-SUBSTITUTION
-↓
-BEZOUT IDENTITY
-↓
-ax+by = N
-↓
-gcd(a,b) | N
+---
 
-============================================================
-PART 36 — HOW TO PROVE SOMETHING IS THE GCD
+# Part 36 — How to Prove Something Is the GCD
 
 If a question says:
 
-"Prove d = gcd(a,b)."
+> **“Prove `d = gcd(a,b)`.”**
 
 Do exactly this:
 
-STEP 1:
+### Step 1
 
 Show:
 
-d|a.
+`d | a`
 
-STEP 2:
+### Step 2
 
 Show:
 
-d|b.
+`d | b`
 
-STEP 3:
+### Step 3
 
-Take an arbitrary common divisor c.
+Take an arbitrary common divisor `c`.
 
 Assume:
 
-c|a
+`c | a`
 
 and:
 
-c|b.
+`c | b`
 
-STEP 4:
+### Step 4
 
 Prove:
 
-c|d.
+`c | d`
 
-STEP 5:
+### Step 5
 
 Conclude:
 
-d=gcd(a,b).
+`d=gcd(a,b)`
 
-DO NOT ONLY SAY:
+> **DO NOT ONLY SAY:**  
+> “d is the largest common divisor.”
+>
+> The divisibility characterization is much more useful for proofs.
 
-"d is the largest common divisor."
+---
 
-The divisibility characterization is much more useful for proofs.
-
-============================================================
-PART 37 — HOW TO PROVE TWO GCDs ARE EQUAL
+# Part 37 — How to Prove Two GCDs Are Equal
 
 To prove:
 
-gcd(a,b)=gcd(c,d),
+`gcd(a,b)=gcd(c,d)`
 
 one powerful method is to show that the two pairs have exactly the same common divisors.
 
 Show:
 
-x divides a and b
+`x` divides `a` and `b`
 
-if and only if
+**if and only if**
 
-x divides c and d.
+`x` divides `c` and `d`.
 
 Then their common divisor sets are identical.
 
@@ -1482,129 +1482,126 @@ Therefore their GCDs are equal.
 
 For Euclidean algorithm:
 
-gcd(a,b)=gcd(b,r)
+`gcd(a,b)=gcd(b,r)`
 
 because:
 
-CD(a,b)=CD(b,r).
+`CD(a,b)=CD(b,r)`
 
-============================================================
-PART 38 — HOW TO PROVE A NUMBER IS NOT THE GCD
+---
+
+# Part 38 — How to Prove a Number Is Not the GCD
 
 If someone claims:
 
-d=gcd(a,b),
+`d=gcd(a,b)`
 
 try to find a contradiction.
 
 Either:
 
-d does not divide a,
-d does not divide b,
-there is another common divisor larger than d,
-or a common divisor does not divide d.
+- `d` does not divide `a`,
+- `d` does not divide `b`,
+- there is another common divisor larger than `d`, or
+- a common divisor does not divide `d`.
 
 Any one of these disproves the claim.
 
-============================================================
-PART 39 — HOW TO PROVE TWO NUMBERS ARE COPRIME
+---
 
-METHOD 1:
+# Part 39 — How to Prove Two Numbers Are Coprime
+
+### Method 1
 
 Run Euclidean algorithm.
 
-If final GCD = 1:
+If final GCD = `1`:
 
-gcd(a,b)=1.
+`gcd(a,b)=1`
 
 Therefore they are coprime.
 
-METHOD 2:
+### Method 2
 
-Find integers x,y such that:
+Find integers `x,y` such that:
 
-ax+by=1.
+`ax+by=1`
 
 Then:
 
-gcd(a,b)=1.
+`gcd(a,b)=1`
 
-METHOD 3:
+### Method 3
 
 If you can directly construct:
 
-1 = ma+nb,
+`1=ma+nb`
 
 then immediately conclude:
 
-gcd(a,b)=1.
+`gcd(a,b)=1`
 
-============================================================
-PART 40 — USEFUL GCD TRICK FOR LINEAR EXPRESSIONS
+---
+
+# Part 40 — Useful GCD Trick for Linear Expressions
 
 Suppose:
 
-A(n)=an+b
+`A(n)=an+b`
 
 and:
 
-B(n)=cn+d.
+`B(n)=cn+d`
 
 Consider:
 
-cA(n)-aB(n).
+`cA(n)-aB(n)`
 
 Then:
 
-c(an+b)-a(cn+d)
+`c(an+b)-a(cn+d)`
 
-= acn+bc-acn-ad
+`= acn+bc-acn-ad`
 
-= bc-ad.
+`= bc-ad`
 
 Therefore:
 
-gcd(an+b,cn+d)
-
-divides:
-
-bc-ad.
-
-So:
-
-gcd(an+b,cn+d) | (bc-ad).
+`gcd(an+b,cn+d) | (bc-ad)`
 
 If:
 
-bc-ad = ±1,
+`bc-ad = ±1`
 
 then:
 
-gcd(an+b,cn+d)=1.
+`gcd(an+b,cn+d)=1`
 
-============================================================
-PART 41 — RELATIONS
+---
 
-A relation R from A to B is a subset of:
+# Part 41 — Relations
 
-A x B.
+A relation `R` from `A` to `B` is a subset of:
+
+`A × B`
 
 A relation tells us which elements are related.
 
 Divisibility is a relation:
 
-a R b
+`a R b`
 
 if and only if:
 
-a | b.
+`a | b`
 
-============================================================
-PART 42 — FUNCTION VS RELATION
+---
+
+# Part 42 — Function vs Relation
 
 A function requires:
 
-EVERY input has EXACTLY ONE output.
+> **EVERY input has EXACTLY ONE output.**
 
 A relation does not require that.
 
@@ -1612,11 +1609,11 @@ Divisibility is not a function because one number may divide many numbers.
 
 For example, generally:
 
-a|b1,
+`a | b₁`
 
-a|b2,
+`a | b₂`
 
-a|b3,
+`a | b₃`
 
 etc.
 
@@ -1624,403 +1621,392 @@ So one input may correspond to multiple outputs.
 
 Therefore:
 
-divisibility = relation.
+> **divisibility = relation**
 
 GCD is a function because each input pair has exactly one positive GCD.
 
 Therefore:
 
-gcd = function.
+> **gcd = function**
 
-============================================================
-PART 43 — PARTIAL ORDER
+---
+
+# Part 43 — Partial Order
 
 A partial order requires:
 
-Reflexivity
-Antisymmetry
-Transitivity
+1. Reflexivity
+2. Antisymmetry
+3. Transitivity
 
-DIVISIBILITY:
+### Divisibility
 
-Reflexive:
+**Reflexive:**
 
-a|a.
+`a | a`
 
-Antisymmetric:
+**Antisymmetric:**
 
-a|b and b|a implies a=b for positive integers.
+`a | b` and `b | a` implies `a=b` for positive integers.
 
-Transitive:
+**Transitive:**
 
-a|b and b|c implies a|c.
+`a | b` and `b | c` implies `a | c`
 
 Therefore divisibility on positive integers is a partial order.
 
-It is NOT generally a total order because two numbers may be incomparable.
+It is **NOT** generally a total order because two numbers may be incomparable.
 
-For some a,b:
+For some `a,b`:
 
-a does not divide b
+`a` does not divide `b`
 
 and:
 
-b does not divide a.
+`b` does not divide `a`
 
-============================================================
-PART 44 — HASSE DIAGRAM
+---
+
+# Part 44 — Hasse Diagram
 
 A Hasse diagram represents a partial order.
 
 For divisibility:
 
-a is below b when:
+`a` is below `b` when:
 
-a|b.
+`a | b`
 
 But we do not draw every relation.
 
-We only draw COVER relations.
+We only draw **COVER relations**.
 
-a is covered by b if:
+`a` is covered by `b` if:
 
-a|b
+`a | b`
 
-and there is no c such that:
+and there is no `c` such that:
 
-a|c|b
+`a | c | b`
 
 with:
 
-c different from a,b.
+`c` different from `a,b`.
 
-So:
+Therefore:
 
-HASSE DIAGRAM = partial-order diagram with transitive relations removed.
+> **HASSE DIAGRAM = partial-order diagram with transitive relations removed.**
 
-============================================================
-PART 45 — GENERAL PRACTICE PROBLEM STRATEGIES
+---
 
-PROBLEM TYPE 1:
+# Part 45 — General Practice Problem Strategies
 
-"Find gcd(a,b)."
-
-METHOD:
+### Problem Type 1 — Find `gcd(a,b)`
 
 Use Euclidean algorithm.
 
-a=bq1+r1
+`a=bq₁+r₁`
 
-b=r1q2+r2
+`b=r₁q₂+r₂`
 
-r1=r2q3+r3
+`r₁=r₂q₃+r₃`
 
-...
+…
 
-last non-zero remainder = gcd.
+Last non-zero remainder = GCD.
 
-PROBLEM TYPE 2:
+### Problem Type 2 — Find `x,y` such that `ax+by=d`
 
-"Find x,y such that ax+by=d."
+Find `d` using Euclidean algorithm.
 
-METHOD:
-
-Find d using Euclidean algorithm.
 Back-substitute.
+
 Obtain:
 
-d=ax+by.
+`d=ax+by`
 
-PROBLEM TYPE 3:
-
-"Determine whether ax+by=N has a solution."
-
-METHOD:
+### Problem Type 3 — Determine Whether `ax+by=N` Has a Solution
 
 Calculate:
 
-d=gcd(a,b).
+`d=gcd(a,b)`
 
 If:
 
-d|N,
+`d | N`
 
 solutions exist.
 
 If:
 
-d does not divide N,
+`d` does not divide `N`,
 
 no integer solution exists.
 
-PROBLEM TYPE 4:
-
-"Prove gcd(A,B)=1."
+### Problem Type 4 — Prove `gcd(A,B)=1`
 
 Try to find:
 
-mA+nB=1.
+`mA+nB=1`
 
 If successful:
 
-gcd(A,B)=1.
+`gcd(A,B)=1`
 
-PROBLEM TYPE 5:
-
-"Prove a number is the gcd."
+### Problem Type 5 — Prove a Number Is the GCD
 
 Use:
 
-d|a
+`d | a`
 
-d|b
+`d | b`
 
 and:
 
-every common divisor c divides d.
+`every common divisor c divides d`
 
-PROBLEM TYPE 6:
-
-"Prove gcd(a,b)=gcd(b,r)."
+### Problem Type 6 — Prove `gcd(a,b)=gcd(b,r)`
 
 Use:
 
-r=a-qb.
+`r=a-qb`
 
 Then prove common divisor sets are equal.
 
-PROBLEM TYPE 7:
-
-"Prove Euclidean algorithm terminates."
+### Problem Type 7 — Prove Euclidean Algorithm Terminates
 
 Show the remainders satisfy:
 
-b>r1>r2>r3>...
+`b>r₁>r₂>r₃>…`
 
 A decreasing sequence of positive integers cannot continue indefinitely.
 
-PROBLEM TYPE 8:
-
-"Construct a fraction."
+### Problem Type 8 — Construct a Fraction
 
 Use:
 
-similar triangles + proportionality.
+**similar triangles + proportionality**
 
-PROBLEM TYPE 9:
-
-"Construct a square root."
+### Problem Type 9 — Construct a Square Root
 
 Use:
 
-right triangle + Pythagoras.
+**right triangle + Pythagoras**
 
-PROBLEM TYPE 10:
+### Problem Type 10 — Construct `30°,45°,60°,90°`
 
-"Construct 30,45,60,90 degrees."
+`90° → perpendicular`
 
-90 -> perpendicular
+`45° → bisect 90°`
 
-45 -> bisect 90
+`60° → equilateral triangle`
 
-60 -> equilateral triangle
+`30° → bisect 60°`
 
-30 -> bisect 60.
-
-PROBLEM TYPE 11:
-
-"Find smallest angle obtainable from x and y."
+### Problem Type 11 — Find Smallest Angle Obtainable from `x` and `y`
 
 Use subtraction Euclidean algorithm.
 
 Answer:
 
-gcd(x,y).
+`gcd(x,y)`
 
-============================================================
-PART 46 — REGULAR HEXAGON GENERAL IDEA
+---
+
+# Part 46 — Regular Hexagon General Idea
 
 A regular hexagon can be divided into six equilateral triangles from its centre.
 
 Total angle around centre:
 
-360 degrees.
+`360°`
 
 Therefore each central angle is:
 
-360/6 = 60 degrees.
+`360/6 = 60°`
 
 Each triangle is equilateral.
 
 Therefore each side of the hexagon equals the radius.
 
-Key facts:
+### Key Facts
 
-central angle = 60 degrees
+- central angle = `60°`
+- radius = side length
+- six equal equilateral triangles make the hexagon
 
-radius = side length
+---
 
-six equal equilateral triangles make the hexagon.
-
-============================================================
-PART 47 — BALANCE / WEIGHT PROBLEMS
+# Part 47 — Balance / Weight Problems
 
 If two available weights are:
 
-a and b,
+`a` and `b`
 
 then integer combinations have the form:
 
-ax+by.
+`ax+by`
 
 The smallest positive integer combination is:
 
-gcd(a,b).
+`gcd(a,b)`
 
-A target N can be represented as:
+A target `N` can be represented as:
 
-N=ax+by
+`N=ax+by`
 
 if and only if:
 
-gcd(a,b)|N.
+`gcd(a,b) | N`
 
-IMPORTANT:
+> **IMPORTANT:**  
+> If the physical problem restricts `x,y` to non-negative numbers or to a specific balance arrangement, the pure integer-linear-combination theorem alone is not sufficient; the physical constraints must also be checked.
 
-If the physical problem restricts x,y to non-negative numbers or to a specific balance arrangement, the pure integer-linear-combination theorem alone is not sufficient; the physical constraints must also be checked.
+---
 
-============================================================
-PART 48 — CURRENCY / NOTE PROBLEMS
+# Part 48 — Currency / Note Problems
 
 If available denominations are:
 
-a and b,
+`a` and `b`
 
 then possible integer combinations have form:
 
-ax+by.
+`ax+by`
 
 If the problem allows arbitrary integer coefficients:
 
-N is possible iff:
+`N` is possible iff:
 
-gcd(a,b)|N.
+`gcd(a,b) | N`
 
 If only non-negative numbers of notes are allowed:
 
-x>=0
+`x>=0`
 
 and:
 
-y>=0
+`y>=0`
 
 must also be satisfied.
 
 So distinguish:
 
-NUMBER THEORY CONDITION:
+### Number Theory Condition
 
-gcd(a,b)|N.
+`gcd(a,b) | N`
 
-PHYSICAL/REAL-WORLD CONDITION:
+### Physical / Real-World Condition
 
-x,y satisfy the allowed restrictions.
+`x,y` satisfy the allowed restrictions.
 
-============================================================
-PART 49 — FIBONACCI GCD IDEA
+---
+
+# Part 49 — Fibonacci GCD Idea
 
 Fibonacci numbers:
 
-F1=1
+`F₁=1`
 
-F2=1
+`F₂=1`
 
-Fn=Fn-1+Fn-2.
+`Fₙ=Fₙ₋₁+Fₙ₋₂`
 
 Important theorem:
 
-gcd(Fm,Fn)=F_gcd(m,n).
+`gcd(Fₘ,Fₙ)=F_gcd(m,n)`
 
 The reason is connected to Euclidean reduction of the indices.
 
-When m>n:
+When `m>n`:
 
-gcd(Fm,Fn)
+`gcd(Fₘ,Fₙ)`
 
 can be reduced using Fibonacci identities in the same spirit as:
 
-gcd(m,n)=gcd(n,m-n).
+`gcd(m,n)=gcd(n,m-n)`
 
-============================================================
-PART 50 — FINAL PROOF TEMPLATES
+---
 
-PROOF TEMPLATE A — DIVISIBILITY
+# Part 50 — Final Proof Templates
+
+## Proof Template A — Divisibility
 
 Assume:
 
-c|a and c|b.
-
-Then:
-
-a=cm
+`c | a`
 
 and:
 
-b=cn.
+`c | b`
+
+Then:
+
+`a=cm`
+
+and:
+
+`b=cn`
 
 Therefore:
 
-ma+nb = c(mu+nv)
+`ma+nb = c(mu+nv)`
 
 for suitable integer coefficients.
 
 Hence:
 
-c|(ma+nb).
+`c | (ma+nb)`
 
-PROOF TEMPLATE B — SUBTRACTION
+---
 
-a=cm
+## Proof Template B — Subtraction
 
-b=cn.
+`a=cm`
+
+`b=cn`
 
 Therefore:
 
-a-b=c(m-n).
+`a-b=c(m-n)`
 
 Hence:
 
-c|(a-b).
+`c | (a-b)`
 
-PROOF TEMPLATE C — GCD PRESERVATION
+---
+
+## Proof Template C — GCD Preservation
 
 Let:
 
-r=a-qb.
+`r=a-qb`
 
-If c divides a and b, then:
+If `c` divides `a` and `b`, then:
 
-c divides r.
+`c` divides `r`.
 
-If c divides b and r, then:
+If `c` divides `b` and `r`, then:
 
-c divides a=qb+r.
+`c` divides `a=qb+r`
 
 Therefore common divisor sets are identical.
 
 Hence:
 
-gcd(a,b)=gcd(b,r).
+`gcd(a,b)=gcd(b,r)`
 
-PROOF TEMPLATE D — EUCLIDEAN ALGORITHM
+---
+
+## Proof Template D — Euclidean Algorithm
 
 Repeatedly use:
 
-a=bq+r.
+`a=bq+r`
 
 Replace:
 
-(a,b) by (b,r).
+`(a,b)` by `(b,r)`
 
 The GCD remains unchanged.
 
@@ -2028,287 +2014,299 @@ Since remainders decrease, the algorithm terminates.
 
 The last non-zero remainder is the GCD.
 
-PROOF TEMPLATE E — BEZOUT
+---
+
+## Proof Template E — Bézout
 
 Euclidean algorithm gives:
 
-d=gcd(a,b).
+`d=gcd(a,b)`
 
 Back-substitute until:
 
-d=ax+by.
+`d=ax+by`
 
 Therefore:
 
-gcd(a,b)=ax+by.
+`gcd(a,b)=ax+by`
 
-PROOF TEMPLATE F — LINEAR COMBINATION SOLVABILITY
+---
+
+## Proof Template F — Linear Combination Solvability
 
 If:
 
-N=ax+by,
+`N=ax+by`
 
 then:
 
-gcd(a,b)|N.
+`gcd(a,b) | N`
 
 Conversely, if:
 
-gcd(a,b)|N,
+`gcd(a,b) | N`
 
 use Bézout:
 
-gcd(a,b)=ax0+by0
+`gcd(a,b)=ax₀+by₀`
 
-and multiply by N/gcd(a,b).
+and multiply by:
+
+`N/gcd(a,b)`
 
 Therefore:
 
-N=ax+by.
+`N=ax+by`
 
-PROOF TEMPLATE G — QUOTIENT/REMAINDER UNIQUENESS
+---
+
+## Proof Template G — Quotient / Remainder Uniqueness
 
 Assume:
 
-a=bq1+r1=bq2+r2.
+`a=bq₁+r₁=bq₂+r₂`
 
 Then:
 
-b(q1-q2)=r2-r1.
+`b(q₁-q₂)=r₂-r₁`
 
 Since:
 
--b<r2-r1<b,
+`-b<r₂-r₁<b`
 
-the only possible multiple of b is 0.
+the only possible multiple of `b` is `0`.
 
 Therefore:
 
-r1=r2
+`r₁=r₂`
 
 and:
 
-q1=q2.
+`q₁=q₂`
 
-PROOF TEMPLATE H — GCD DEFINITION
+---
+
+## Proof Template H — GCD Definition
 
 To prove:
 
-d=gcd(a,b),
+`d=gcd(a,b)`
 
 show:
 
-d|a
+`d | a`
 
-d|b
+`d | b`
 
 and:
 
-c|a,c|b implies c|d.
+`c | a, c | b` implies `c | d`
 
 Then:
 
-d=gcd(a,b).
+`d=gcd(a,b)`
 
-============================================================
-PART 51 — MASTER FORMULA BANK
+---
 
-BOOs:
+# Part 51 — Master Formula Bank
 
-O1 = join two points
+## BOOs
 
-O2 = intersection of two lines
+| BOO | Meaning |
+|---|---|
+| **O1** | Join two points |
+| **O2** | Intersection of two lines |
+| **O3** | Perpendicular bisector |
+| **O4** | Angle bisector |
+| **O5** | Perpendicular through a point |
 
-O3 = perpendicular bisector
+## Similarity
 
-O4 = angle bisector
+Corresponding sides are proportional.
 
-O5 = perpendicular through a point
+## Pythagoras
 
-SIMILARITY:
+`c²=a²+b²`
 
-corresponding sides are proportional.
+## Fractions
 
-PYTHAGORAS:
+`1/n → equal auxiliary divisions + similar triangles`
 
-c^2=a^2+b^2.
+`m/n = m(1/n)`
 
-FRACTIONS:
+## Square Roots
 
-1/n -> equal auxiliary divisions + similar triangles.
+`√2=√(1²+1²)`
 
-m/n = m(1/n).
+`√(n+1)=√((√n)²+1²)`
 
-SQUARE ROOTS:
+`√(a²+b²) = hypotenuse`
 
-sqrt(2)=sqrt(1^2+1^2).
+## Angles
 
-sqrt(n+1)=sqrt((sqrt(n))^2+1^2).
+`90° → perpendicular`
 
-sqrt(a^2+b^2) = hypotenuse.
+`45° = 90°/2`
 
-ANGLES:
+`60° → equilateral triangle`
 
-90 -> perpendicular.
+`30° = 60°/2`
 
-45 = 90/2.
+Smallest positive integer angle from `x,y`:
 
-60 -> equilateral triangle.
+`gcd(x,y)`
 
-30 = 60/2.
+## Divisibility
 
-smallest positive integer angle from x,y = gcd(x,y).
+`a | b iff b=ak`
 
-DIVISIBILITY:
+## Transitivity
 
-a|b iff b=ak.
+`a | b` and `b | c → a | c`
 
-TRANSITIVITY:
+## Linear Combination
 
-a|b and b|c -> a|c.
+`c | a` and `c | b → c | (ma+nb)`
 
-LINEAR COMBINATION:
+## Division
 
-c|a and c|b -> c|(ma+nb).
+`a=bq+r`
 
-DIVISION:
+`0≤r<b`
 
-a=bq+r
+## GCD
 
-0<=r<b.
+`gcd(a,b)=gcd(b,a)`
 
-GCD:
+`gcd(a,b)=gcd(|a|,|b|)`
 
-gcd(a,b)=gcd(b,a).
+`gcd(a,b)=gcd(a-b,b)`
 
-gcd(a,b)=gcd(|a|,|b|).
+`gcd(a,b)=gcd(a-qb,b)`
 
-gcd(a,b)=gcd(a-b,b).
+`gcd(a,b)=gcd(b,a mod b)`
 
-gcd(a,b)=gcd(a-qb,b).
+`gcd(ka,kb)=|k|gcd(a,b)`
 
-gcd(a,b)=gcd(b,a mod b).
+## Euclidean Algorithm
 
-gcd(ka,kb)=|k|gcd(a,b).
-
-EUCLIDEAN ALGORITHM:
-
-a=bq+r.
+`a=bq+r`
 
 Repeat:
 
-(a,b)->(b,r).
+`(a,b)→(b,r)`
 
-Last non-zero remainder = gcd.
+Last non-zero remainder = GCD.
 
-BEZOUT:
+## Bézout
 
-gcd(a,b)=ax+by.
+`gcd(a,b)=ax+by`
 
-SOLVABILITY:
+## Solvability
 
-ax+by=N
+`ax+by=N`
 
 iff:
 
-gcd(a,b)|N.
+`gcd(a,b) | N`
 
-COPRIME:
+## Coprime
 
-gcd(a,b)=1.
+`gcd(a,b)=1`
 
 Equivalent to:
 
-ax+by=1.
+`ax+by=1`
 
-PARTIAL ORDER:
+## Partial Order
 
-reflexive + antisymmetric + transitive.
+Reflexive + antisymmetric + transitive.
 
-DIVISIBILITY:
+## Divisibility
 
-partial order on positive integers.
+Partial order on positive integers.
 
-HASSE:
+## Hasse
 
-draw only cover relations.
+Draw only cover relations.
 
-============================================================
-PART 52 — ULTRA-SHORT EXAM REVISION
+---
 
-If you have only 10 minutes before the exam, memorise this:
+# Part 52 — Ultra-Short Exam Revision
 
-a|b means:
+> ## If You Have Only 10 Minutes Before the Exam
 
-b=ak.
+`a | b` means:
 
-If:
-
-c|a and c|b,
-
-then:
-
-c|(ma+nb).
+`b=ak`
 
 If:
 
-a=bq+r,
+`c | a` and `c | b`
 
 then:
 
-gcd(a,b)=gcd(b,r).
+`c | (ma+nb)`
+
+If:
+
+`a=bq+r`
+
+then:
+
+`gcd(a,b)=gcd(b,r)`
 
 Repeat Euclidean algorithm until:
 
-r=0.
+`r=0`
 
 Last non-zero remainder:
 
-gcd(a,b).
+`gcd(a,b)`
 
 Back-substitution:
 
-gcd(a,b)=ax+by.
+`gcd(a,b)=ax+by`
 
 Therefore:
 
-ax+by=N
+`ax+by=N`
 
 has an integer solution iff:
 
-gcd(a,b)|N.
+`gcd(a,b) | N`
 
-To prove d is GCD:
+### To prove `d` is GCD
 
-d|a
+`d | a`
 
-d|b
+`d | b`
 
-every common divisor c divides d.
+every common divisor `c` divides `d`
 
-To prove Euclidean algorithm terminates:
+### To prove Euclidean algorithm terminates
 
-remainders strictly decrease.
+Remainders strictly decrease.
 
-To construct 1/n:
+### To construct `1/n`
 
-equal divisions + similar triangles.
+Equal divisions + similar triangles.
 
-To construct square roots:
+### To construct square roots
 
-right triangle + Pythagoras.
+Right triangle + Pythagoras.
 
-To construct angles:
+### To construct angles
 
-O5 -> 90
+`O5 → 90°`
 
-O4 -> bisect
+`O4 → bisect`
 
-equilateral -> 60.
+`equilateral → 60°`
 
-Smallest positive angle obtained from x,y:
+Smallest positive angle obtained from `x,y`:
 
-gcd(x,y).
+`gcd(x,y)`
 
 Divisibility is a relation.
 
@@ -2316,137 +2314,138 @@ GCD is a function.
 
 Divisibility on positive integers is a partial order.
 
-============================================================
-PART 53 — THE ULTIMATE MEMORY MAP
+---
+
+# Part 53 — The Ultimate Memory Map
 
 Remember these four ideas:
 
-IDEA 1:
+## IDEA 1 — DIVISIBILITY IS ABOUT MULTIPLES
 
-"DIVISIBILITY IS ABOUT MULTIPLES."
-
-a|b
+`a | b`
 
 means:
 
-b=ak.
+`b=ak`
 
-IDEA 2:
+## IDEA 2 — LINEAR COMBINATIONS PRESERVE COMMON DIVISORS
 
-"LINEAR COMBINATIONS PRESERVE COMMON DIVISORS."
+If `c` divides both `a` and `b`:
 
-If c divides both a and b:
+`c` divides every `ax+by`
 
-c divides every ax+by.
+## IDEA 3 — EUCLIDEAN ALGORITHM IS JUST SMART SUBTRACTION
 
-IDEA 3:
-
-"EUCLIDEAN ALGORITHM IS JUST SMART SUBTRACTION."
-
-a=bq+r
+`a=bq+r`
 
 means:
 
-r=a-qb.
+`r=a-qb`
 
 Therefore common divisors don't change.
 
 So:
 
-gcd(a,b)=gcd(b,r).
+`gcd(a,b)=gcd(b,r)`
 
-IDEA 4:
+## IDEA 4 — THE GCD IS THE SMALLEST POSITIVE LINEAR COMBINATION
 
-"THE GCD IS THE SMALLEST POSITIVE LINEAR COMBINATION."
-
-gcd(a,b)=ax+by.
+`gcd(a,b)=ax+by`
 
 Therefore:
 
-N is a linear combination of a,b
+`N` is a linear combination of `a,b`
 
 exactly when:
 
-gcd(a,b)|N.
+`gcd(a,b) | N`
 
-============================================================
-THE FINAL CHAIN TO MEMORISE
+---
 
-DIVISIBILITY
+# 🔗 The Final Chain to Memorise
 
-a|b means b=ak.
+**DIVISIBILITY**
 
-    ↓
+`a | b` means `b=ak`
 
-COMMON DIVISORS
+↓
 
-c|a and c|b.
+**COMMON DIVISORS**
 
-    ↓
+`c | a` and `c | b`
 
-LINEAR COMBINATION
+↓
 
-c|(ma+nb).
+**LINEAR COMBINATION**
 
-    ↓
+`c | (ma+nb)`
 
-EUCLIDEAN STEP
+↓
 
-a=bq+r.
+**EUCLIDEAN STEP**
 
-    ↓
+`a=bq+r`
 
-SUBTRACTION
+↓
 
-r=a-qb.
+**SUBTRACTION**
 
-    ↓
+`r=a-qb`
 
-COMMON DIVISORS DON'T CHANGE
+↓
 
-CD(a,b)=CD(b,r).
+**COMMON DIVISORS DON'T CHANGE**
 
-    ↓
+`CD(a,b)=CD(b,r)`
 
-GCD DOESN'T CHANGE
+↓
 
-gcd(a,b)=gcd(b,r).
+**GCD DOESN'T CHANGE**
 
-    ↓
+`gcd(a,b)=gcd(b,r)`
 
-REPEAT
+↓
 
-Euclidean Algorithm.
+**REPEAT**
 
-    ↓
+Euclidean Algorithm
 
-LAST NON-ZERO REMAINDER
+↓
 
-gcd(a,b).
+**LAST NON-ZERO REMAINDER**
 
-    ↓
+`gcd(a,b)`
 
-BACK-SUBSTITUTION
+↓
 
-gcd(a,b)=ax+by.
+**BACK-SUBSTITUTION**
 
-    ↓
+`gcd(a,b)=ax+by`
 
-BEZOUT
+↓
+
+**BÉZOUT**
 
 GCD is an integer linear combination.
 
-    ↓
+↓
 
-LINEAR EQUATION
+**LINEAR EQUATION**
 
-ax+by=N.
+`ax+by=N`
 
-    ↓
+↓
 
-SOLVABILITY CONDITION
+**SOLVABILITY CONDITION**
 
-gcd(a,b)|N.
+`gcd(a,b) | N`
 
-============================================================
-END
+---
+
+<div align="right">
+
+**Jinnwooo'**
+
+</div>
+
+
