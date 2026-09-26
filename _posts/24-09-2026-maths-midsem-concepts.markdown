@@ -1,6 +1,13 @@
-GENERAL CASES + FORMULAS + PROOFS + CONSTRUCTION METHODS
+---
+layout: post
+title:  " MATHS MIDSEM CONCEPTS"
+date:   2026-09-24 
+categories: jekyll update
+---
+### MATHS MIDSEM CONCEPTS - INTRODUCTION TO MATH THINK ...
 
 ## courseflow
+
 GEOMETRY
 ↓
 RATIOS
@@ -19,8 +26,11 @@ BEZOUT IDENTITY
 ↓
 SOLVABILITY OF ax + by = N
 
-
-PART 1 — BOOs / BASIC CONSTRUCTIONS
+==============================================================
+|| GENERAL CASES + FORMULAS + PROOFS + CONSTRUCTION METHODS ||
+==============================================================
+## BOO'S CONCEPTS
+# PART 1 — BOOs / BASIC CONSTRUCTIONS
 
 The five BOOs used in the worksheets are:
 
@@ -60,8 +70,8 @@ Therefore, to construct a parallel line:
 Construct a perpendicular to the given line.
 Construct another perpendicular to that perpendicular.
 The second line is parallel to the original line.
-============================================================
-PART 2 — SIMILAR TRIANGLES
+=============================
+ #PART 2 — SIMILAR TRIANGLES
 
 Similar triangles have the same shape but may have different sizes.
 
