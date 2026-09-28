@@ -4,7 +4,7 @@ title:  " MATHS MIDSEM CONCEPTS"
 date:   2026-09-24 10:00:00 +0530
 categories: jekyll update
 ---
-### MATHS MIDSEM CONCEPTS - INTRODUCTION TO MAth minor
+### MATHS MIDSEM CONCEPTS - INTRODUCTION TO MATH MINOR
  
 > **Course:** Introduction to Mathematical Thinking
 
@@ -2442,7 +2442,7 @@ GCD is an integer linear combination.
 
 ---
 
-<div align="right">
+<div align="middle">
 
 **Jinnwooo'**
 
